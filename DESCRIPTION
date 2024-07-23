@@ -1,0 +1,11 @@
+Package: shinyMatrix
+Title: Create A Matrix Of Questions for Shiny Survey
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sarah", "Gibson", , "sgibson@ncsc.org", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A function to create a multiselect or single select matrix input for shiny surveys.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1

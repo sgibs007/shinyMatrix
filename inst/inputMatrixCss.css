@@ -1,0 +1,43 @@
+
+.dataTable-container table td,
+.dataTable-container table th {
+  border: 0;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+}
+.dataTable-container table th:empty {
+  border: 0;
+}
+
+.shiny-checkboxmatrix-row:nth-child(even) {
+ background-color: #f9f9f9;
+}
+
+.dataTable-container table {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  border-collapse: separate;
+  border-spacing: 0;
+  display: table;
+  background-color: transparent;
+  box-sizing: content-box;
+}
+
+.dataTable-container table th,
+.dataTable-container table td {
+  box-sizing: content-box;
+}
+
+.dataTable-container table td:nth-child(1),
+.dataTable-container table td:nth-child(2) {
+  width: 1px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.dataTable-container table tr:nth-child(1) {
+  font-weight: bold;
+}
